@@ -1,6 +1,0 @@
-import whisper
-
-model = whisper.load_model("base")
-
-result = model.transcribe("audio.wav", task="translate")
-print("English Output:", result["text"])
